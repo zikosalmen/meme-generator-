@@ -6,7 +6,7 @@ import React, { useRef, useState } from "react";
 import Draggable from "react-draggable";
 import Footer from "../../footer.jsx";
 import html2canvas from "html2canvas";
-import Image from 'next/image';
+
 function Edit() {
 
   const divRef = useRef(null);
@@ -45,7 +45,7 @@ function Edit() {
       <Header />
       <div id="gird_edit" >
         <div ref={divRef}>
-          <Image src={`../../../${id}`} alt="erreur" className="edit_photo" />
+          <img src={`../../../${id}`} alt="erreur" className="edit_photo" />
 
            {divs.map((d) => (
           <Draggable 
