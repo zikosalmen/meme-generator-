@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost"; 
-$username = "root";       
-$password = "";           
-$dbname = "memes_db";        
+$servername = "sql302.infinityfree.com"; 
+$username = "if0_39921363";       
+$password = "EHoPPz7ZoTjTcGu";           
+$dbname = "if0_39921363_newbdmemeyeeees";        
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
