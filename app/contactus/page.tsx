@@ -11,7 +11,7 @@ function Contact() {
             <img src="/logo.png" alt="image non dispo" id="logo" />{" "}
           </center>
           <h2>Contactez-nous</h2>
-          <form method="POST" action="https://meme12.infy.uk/contact.php">
+          <form method="" action="">
             <div className="row">
               <div className="field">
                 <label>Prénom</label>
