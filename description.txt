@@ -1,0 +1,3 @@
+premier projet avec react (next.js) 
+css pur(sans tailwind , bootstrap,...) 
+encore n est pas stable , juste pour tester
